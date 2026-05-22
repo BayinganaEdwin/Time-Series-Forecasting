@@ -1,0 +1,29 @@
+Augmented Dickey-Fuller Test Results:
+=====================================
+
+Cell ID: 5161
+  ADF Statistic: -19.031898946998258
+  p-value: 0.0
+  Lags Used: 36
+  Number of Observations: 8891
+  Critical Values (1%): -3.4310857090295186
+  Critical Values (5%): -2.861865135161221
+  Critical Values (10%): -2.56694306444016
+
+Cell ID: 4159
+  ADF Statistic: -12.862496455670774
+  p-value: 5.075441109438307e-24
+  Lags Used: 36
+  Number of Observations: 8891
+  Critical Values (1%): -3.4310857090295186
+  Critical Values (5%): -2.861865135161221
+  Critical Values (10%): -2.56694306444016
+
+Cell ID: 4556
+  ADF Statistic: -14.195820473512818
+  p-value: 1.8233146717637997e-26
+  Lags Used: 20
+  Number of Observations: 8907
+  Critical Values (1%): -3.431084387064825
+  Critical Values (5%): -2.8618645510116942
+  Critical Values (10%): -2.5669427534938736

@@ -1,0 +1,13 @@
+Model Execution Time statistics (M1 Pro CPU/GPU):
+================================================
+
+Cell      Model       Train Time (s)    Inference Time (s)
+5161      SARIMA      1.3971            0.0024            
+5161      LSTM        69.7885           5.8322            
+5161      GRU         55.8096           5.3925            
+4159      SARIMA      1.3622            0.0023            
+4159      LSTM        70.5658           6.0007            
+4159      GRU         57.2863           5.4086            
+4556      SARIMA      1.3627            0.0023            
+4556      LSTM        72.4700           5.9864            
+4556      GRU         58.2718           5.4936            
