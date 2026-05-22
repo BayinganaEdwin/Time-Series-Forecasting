@@ -1,8 +1,8 @@
 # Spatiotemporal Sequential Mobile Traffic Forecasting Pipeline
 
-This repository contains the complete spatiotemporal machine learning pipeline for analyzing and forecasting mobile network traffic in the city of Milan. The project is designed as a formative academic assignment for ALU Year 3, Trim 2, Machine Learning Techniques I.
+This repository contains the complete spatiotemporal machine learning pipeline for analyzing and forecasting mobile network traffic in the city of Milan.
 
-The project processes an extracted **27.3 GB raw spatiotemporal text dataset** from Telecom Italia Mobile (TIM) Milan Grid (composed of 62 uncompressed daily logs), performs deep exploratory data analysis, trains and evaluates three sequence models (Holt-Winters Exponential Smoothing, LSTM, and GRU) for one-step-ahead forecasting, and automatically compiles a publication-ready **Academic Report**.
+The project processes an extracted **27.3 GB raw spatiotemporal text dataset** from Telecom Italia Mobile (TIM) Milan Grid (composed of 62 uncompressed daily logs), performs deep exploratory data analysis, trains and evaluates three sequence models (Holt-Winters Exponential Smoothing, LSTM, and GRU) for one-step-ahead forecasting.
 
 ---
 
@@ -68,7 +68,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-> **Apple Silicon (M1/M2/M3) Note:** PyTorch MPS (GPU) acceleration is intentionally disabled in this project due to a confirmed numerical stability bug in PyTorch's MPS backend for multi-layer LSTMs. The pipeline forces CPU execution automatically — no manual configuration needed. See the Engineering Notes section below for details.
+> **Apple Silicon (M1 - M5) Note:** PyTorch MPS (GPU) acceleration is intentionally disabled in this project due to a confirmed numerical stability bug in PyTorch's MPS backend for multi-layer LSTMs. The pipeline forces CPU execution automatically — no manual configuration needed. See the Engineering Notes section below for details.
 
 ### Running the Pipeline
 
@@ -119,12 +119,9 @@ ML_Pipeline/
 │   ├── eda.py                  # Core plotting and statistical test algorithms
 │   ├── models.py               # PyTorch LSTM, GRU and Holt-Winters model classes
 │   ├── train.py                # Model training & evaluation loops (MAE, MAPE, RMSE)
-│   ├── tuning.py               # Hyperparameter tuning experiments (3 trials × 2 models)
-│   └── report_generator.py     # Academic PDF compiler using fpdf2
+│   └── tuning.py               # Hyperparameter tuning experiments (3 trials × 2 models)
 ├── main.py                     # Root orchestrator running the entire pipeline
-├── requirements.txt            # Project dependencies list
-├── ML_Pipeline_Final_Report.docx  # Final academic report (Word)
-└── Mobile_Traffic_Forecasting_Report.pdf  # Generated academic PDF
+└── requirements.txt            # Project dependencies list
 ```
 
 ---
