@@ -1,4 +1,4 @@
-# Spatiotemporal Sequential Mobile Traffic Forecasting Pipeline
+# Mobile Traffic Forecasting Pipeline
 
 This repository contains the complete spatiotemporal machine learning pipeline for analyzing and forecasting mobile network traffic in the city of Milan.
 
