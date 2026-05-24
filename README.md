@@ -4,11 +4,6 @@ This repository contains the complete spatiotemporal machine learning pipeline f
 
 The project processes an extracted **27.3 GB raw spatiotemporal text dataset** from Telecom Italia Mobile (TIM) Milan Grid (composed of 62 uncompressed daily logs), performs deep exploratory data analysis, trains and evaluates three sequence models (Holt-Winters Exponential Smoothing, LSTM, and GRU) for one-step-ahead forecasting.
 
----
-
-## Video Demo
-
-> **[To be added here]**
 
 ---
 
